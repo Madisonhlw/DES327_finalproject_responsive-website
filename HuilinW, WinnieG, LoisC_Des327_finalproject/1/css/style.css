@@ -1,0 +1,202 @@
+body, html {
+  height: 100%; 
+  margin: 0;
+  font: 30px "Chalkboard";
+  background-image: url("images/1.png");
+  background-repeat: repeat;
+  background-color: #AECEE0;
+}
+
+/*.logo {
+  background-repeat: no-repeat; 
+  width: %;
+  font-size: 20px;
+  z-index: 1003;
+  position: fixed;
+  }*/
+
+  /* bar */
+#bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 28%;
+  background-color: #AECEE0; 
+  opacity: .8;
+  z-index: 99;
+  position: fixed;
+}
+/* greeting */
+
+ h1{
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  top: 52%;
+  left: 44.5%;
+  position: absolute;
+  z-index: 1000;
+}
+
+ #home {
+  width: 100%;
+  bottom: 5%;
+  position: relative;
+  min-width: 100%;
+}
+/* menu*/
+  .container {
+    position: fixed;
+    width: 100%;
+  }
+
+ .mainNav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  text-align: center; 
+  
+ }
+
+.mainNav a {
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.mainNav a:hover {
+  background-color: none;
+  color: #357396;
+}
+
+.mainNav .icon {
+  display: none;
+}
+
+
+/*fruittea*/
+#fruittea {
+  background-image: url("images/menu2.png");
+  background-repeat: repeat;
+  margin-top: 7%;
+  position: relative;
+}
+
+
+
+/*milktea img*/
+#milktea {
+  margin-top: 10%;
+  }
+
+/*.parallax {
+  background-image: url(../'images/2.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+/*freshtea img*/
+#freshtea {
+  margin-top: 10%;
+}
+
+/*matcha img*/
+#matcha {
+  margin-top: 10%;
+}
+
+/*bingsoo img*/
+#bingsoo {
+  margin-top: 7%;
+}
+
+
+#location {
+  margin-top: 10%;
+}
+
+/*.map {
+  width: 10%;
+  margin: 0 0 0 0;
+
+}*/
+
+#footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #AECEE0;
+   color: white;
+   text-align: center;
+}
+
+.copyRightbar {
+  width: 100%;
+  bottom: 50%;
+  text-align: center ;
+  font-size: 15px;
+  color: white;
+}
+
+.copyRight {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: 38%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.icon_button {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav a {display: none;}
+  .mainNav a.icon{display: block; float: right;}
+
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav.responsive {position: relative;}
+  .mainNav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right: 0;}
+
+  .mainNav.responsive a {
+      display: block;
+      text-align: center;
+  }
+
+
+}
+
+
+
+

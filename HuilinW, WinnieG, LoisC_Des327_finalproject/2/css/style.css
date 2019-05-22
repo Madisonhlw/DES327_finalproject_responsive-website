@@ -1,0 +1,226 @@
+body, html {
+  height: 100%; 
+  margin: 0;
+  font: 30px "Chalkboard";
+  background-image: url("images/1.png");
+  background-repeat: repeat;
+  background-color: #AECEE0;
+}
+
+/*.parallax {
+  background-image: url('images/01top.jpg');
+  height: 100%; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+
+/*.logo {
+  background-repeat: no-repeat; 
+  width: %;
+  font-size: 20px;
+  z-index: 1003;
+  position: fixed;
+  }*/
+
+  /* bar */
+#bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 28%;
+  background-color: #AECEE0; 
+  opacity: .8;
+  z-index: 99;
+  position: fixed;
+}
+/* greeting */
+
+ h1{
+  text-align: center;
+  font-size: 65px;
+  color: black;
+  top: 50%;
+  left: 42%;
+  position: absolute;
+  z-index: 10;
+}
+
+#home {
+  width: 100%;
+  position: relative;
+  min-width: 100%;
+}
+/* menu*/
+ .container {
+    position: fixed;
+    width: 100%;
+    /*max-width: 960px;
+    margin: 0 auto;
+    background: #AECEE0;
+    font-size: 24px;
+    padding: 25px;*/
+  }
+
+  /*.parallax {
+    background: url('images/01top/jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+  }*/
+
+.mainNav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  text-align: center; 
+  
+ }
+
+.mainNav a {
+    font-size: 26px;
+    color: white;
+    padding: 32px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.mainNav a:hover {
+  background-color: none;
+  color: #357396;
+}
+
+.mainNav .icon {
+  display: none;
+}
+
+/*About*/
+#About {
+  background-image: url("images/1.png");
+  background-repeat: repeat;
+  margin-top: 10%;
+  position: relative;
+}
+
+/*.Aboutus{
+  position: absolute;
+  bottom: -99.99999999999%;
+  text-align: center;
+  padding: 32px;
+  width: 50%;
+  left: 25%;
+}*/
+
+/*bestseller01 img*/
+#bestseller01 {
+  margin-top: 10%;
+  }
+
+/*bestseller02 img*/
+.bestseller02 {
+  margin-top: 10%;
+}
+
+/*bestseller03 img*/
+.bestseller03 {
+  margin-top: 10%;
+}
+
+/*bestseller04 img*/
+.bestseller04 {
+  margin-top: 10%;
+}
+
+#location {
+  margin-top: 10%;
+}
+
+/*.map {
+  width: 10%;
+  margin: 0 0 0 0;
+
+}*/
+
+#footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #AECEE0;
+   color: white;
+   text-align: center;
+}
+
+.copyRightbar {
+  width: 100%;
+  bottom: 50%;
+  text-align: center ;
+  font-size: 15px;
+  color: white;
+}
+
+.copyRight {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 10px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+./*fa-yelp {
+  background: #D32323;
+  color: white;
+}*/
+
+.icon_button {
+  /*width: 14%;*/
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav a {display: none;}
+  .mainNav a.icon{display: block; float: right;}
+
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav.responsive {position: relative;}
+  .mainNav.responsive .icon {
+    position: absolute;
+    top: 0;
+    right: 0;}
+
+  .mainNav.responsive a {
+      display: block;
+      text-align: center;
+    }
+
+}
+
+/*@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .About, .bestseller01, .bestseller02, .bestseller03, .bestseller04, .location {
+    background-attachment: scroll;
+  }*/
+
+
+
